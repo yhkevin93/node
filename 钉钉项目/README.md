@@ -1,7 +1,3 @@
-# simple jsapi demo
+# 钉钉微应用## 基础模块
 
-## awesome project
-
-### Getting started
-1. set up your own corp id and corp secret in env.js
-2. public/javascript/demo.js rocks!
+### 在env.js里填写公司ID和密码便可以直接调用钉钉API
