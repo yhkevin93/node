@@ -1,0 +1,28 @@
+doctype html
+html
+   head
+      title 员工
+      link(rel='stylesheet', href='/stylesheets/task.css')
+      script(type="text/javascript") var _config = !{config};
+      script(type='text/javascript', src='http://g.alicdn.com/ilw/ding/0.8.2/scripts/dingtalk.js')
+      script(type='text/javascript', src='http://g.alicdn.com/ilw/cdnjs/jquery/2.1.4/jquery.min.js')
+      script(type='text/javascript', src='/javascripts/fastclick.js')
+      script(type='text/javascript', src='/javascripts/index.js')
+      meta(name="apple-mobile-web-app-capable" content="yes")
+      meta(meta name="apple-mobile-web-app-status-bar-style" content="black")
+      meta(charset="UTF-8")
+      meta(name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")
+      meta(name="format-detection" content="telephone=no")
+      meta(name="author" content="颜浩")
+   
+   body
+      div.doc
+         div.task-list
+            div.itemlist#todolist
+               div.hd 需要完成的任务 
+                  span
+               div.bd
+            div.itemlist#donelist
+               div.hd.done 已经完成的任务
+                  span
+               div.bd
