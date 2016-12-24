@@ -11,8 +11,8 @@ var crypto = require('crypto');
 var querystring = require('querystring');
 
 const OAPI_HOST = 'https://oapi.dingtalk.com';
-const corpId = 'ding5d6d76f8477e0549';
-const secret = 'J2tmdkncVpX4-CPUsPc2M8Os3RsRaJghxSbK8GLd05ln7I16pJImePA7Plp-7CUA';
+const corpId = '';
+const secret = '';
 
 module.exports = {
      //显示首页，与钉钉对接
