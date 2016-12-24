@@ -1,0 +1,34 @@
+doctype html
+html
+   head
+      title 新增用户
+      link(rel='stylesheet', href='/styles/task.css')
+      script(type="text/javascript") var _config = !{config};
+      script(type='text/javascript', src='http://g.alicdn.com/ilw/ding/0.8.2/scripts/dingtalk.js')
+      script(type='text/javascript', src='http://g.alicdn.com/ilw/cdnjs/jquery/2.1.4/jquery.min.js')
+      script(type='text/javascript', src='/js/fastclick.js')
+      script(type='text/javascript', src='/js/addUser.js')
+      
+      meta(name="apple-mobile-web-app-capable" content="yes")
+      meta(meta name="apple-mobile-web-app-status-bar-style" content="black")
+      meta(charset="UTF-8")
+      meta(name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")
+      meta(name="format-detection" content="telephone=no")
+      meta(name="author" content="颜浩")
+   
+   body
+     div.doc
+       div.task-add#task-add
+          div.cells.cells-from
+            div.cell
+              div.cell-hd
+                label.label 用户名
+              div.cell-bd.cell-primary
+                input.input(type="text" id='userName' placeholder='请输入')
+            div.cell
+              div.cell-hd
+                label.label 用户信息
+              div.cell-bd.cell-primary
+                input.input(type="text" id='userMsg' placeholder='请输入')
+            
+                
